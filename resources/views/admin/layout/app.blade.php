@@ -33,21 +33,12 @@
       <div class="navbar-bg"></div>
       <!-- Navbar -->
      @include('admin.layout.navbar')
-      <!--End Navbar
+      <!--End Navbar 
       <!-- Sidebar -->
      @include('admin.layout.sidebar')
       <!-- End Sidebar -->
       <!-- Main Content -->
-      <div class="main-content">
-        <section class="section">
-          <div class="section-header">
-            <h1>Blank Page</h1>
-          </div>
-
-          <div class="section-body">
-          </div>
-        </section>
-      </div>
+     @yield('content')
       <!-- End Main Content -->
        <!-- Footer -->
      @include('admin.layout.footer')
