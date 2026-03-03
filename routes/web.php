@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\SekolahController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -17,6 +18,8 @@ Route::get('/Jurusan', function () {
 Route::get('/Pendaftaran', function () {
     return view('admin.pages.Pendaftaran.Pendaftaran');
 })->name('pendaftaran');
+
+Route::resource('sekolah', SekolahController::class);
 
 
 // Route::get('/guest', function () {

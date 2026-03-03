@@ -7,9 +7,9 @@
             <a href="index-2.html">St</a>
           </div>
           <ul class="sidebar-menu">
+
             <li class="menu-header">Dashboard</li>
             <li class="{{request()->routeIs('beranda') ? 'active' : ''}}">
-
               <a href="{{route('beranda')}}" class="nav-link"><i class="fas fa-home"></i><span>Beranda</span></a>
              
             </li>
@@ -21,8 +21,13 @@
            </li>
             <li class="{{request()->routeIs('jurusan') ? 'active' : '' }}">
               <a class="nav-link" href="{{route('jurusan')}}"><i class="fas fa-fire"></i> <span>Jurusan</span></a></li>
+
             <li class="{{request()->routeIs('pendaftaran') ? 'active' : '' }}">
               <a class="nav-link" href="{{route('pendaftaran')}}"><i class="fas fa-fire"></i> <span>Pendaftaran</span></a></li>
+
+             <li class="{{request()->routeIs('sekolah.*') ? 'active' : '' }}">
+              <a class="nav-link" href="{{route('sekolah.index')}}"><i class="fas fa-fire"></i> <span>Sekolah</span></a></li>
+
            
            
           <div class="mt-4 mb-4 p-3 hide-sidebar-mini">
