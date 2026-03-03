@@ -28,7 +28,7 @@ class SekolahController extends Controller
     public function store(Request $request)
     {
         Sekolah::create($request->all());
-        return redirect()->route('sekolah.sekolah');
+        return redirect()->route('sekolah.index');
         
     }
 

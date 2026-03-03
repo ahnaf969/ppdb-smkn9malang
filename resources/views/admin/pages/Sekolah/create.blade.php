@@ -27,14 +27,14 @@
                             <div class="form-group">
                                 <label>Email</label>
                                 <input type="text" class="form-control" id="email"
-                                    placeholder="Masukan Email" name="alamat_email">
+                                    placeholder="Masukan Email" name="email">
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="form-group">
                                 <label for="telp">Nomor Telepon</label>
-                                <input type="number" class="form-control" id="telp"
-                                    placeholder="Masukan Nomor Telepon" name="no_telp">
+                                <input type="number" class="form-control" id="no_tlp"
+                                    placeholder="Masukan Nomor Telepon" name="no_tlp">
                             </div>
                         </div>
 
